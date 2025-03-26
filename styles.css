@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --cor-principal: #95d3d2;
-    --cor1:#6aa7a6;
-    --cor2:#3f7c7c;
-    --cor3:#115454;
-    --cor4:#002f30;
+    --cor-principal:#0064e1;
+    --cor1:#454655;
+    --cor2:#a9aabc;
+    --cor3:#d30d45;
+    --cor4:#ff5b75;
     --preto: #000000;
     --branco: #FFFFFF;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 #contato {
-    background: var(--cor-principal);
+    background: var(--cor4);
     background-size: cover;
     padding: 4rem 0;
 }
@@ -30,11 +30,11 @@ body {
 }
 
 .formulario button {
-    background-color: var(--cor1);
+    background-color: var(--cor4);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: var(--cor-principal);
+    background-color: var(--cor2);
 }
