@@ -30,11 +30,11 @@ body {
 }
 
 .formulario button {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: var(--cor1);
+    background-color: var(--cor-principal);
 }
