@@ -26,11 +26,12 @@ section {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
-    
+    background: var(--cor-az-clr);
+
 }
 
 #contato {
-    background: var(--cor-az);
+    background: var(--cor-az-prn);
     background-size: cover;
     padding: 4rem 0;
 }
