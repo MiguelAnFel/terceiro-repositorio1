@@ -16,7 +16,7 @@ body {
 }
 
 #contato {
-    background: var(--cor4);
+    background: var(--cor-principal);
     background-size: cover;
     padding: 4rem 0;
 }
