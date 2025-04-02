@@ -27,7 +27,16 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     background: var(--cor-az-clr);
+    background-size: 180px 180px; /* muda dps animal*/
 
+}
+
+#crustaceos .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /*faz as coisa ficar em cima do background*/
 }
 
 #contato {
