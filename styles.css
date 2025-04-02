@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --cor-principal:#0064e1;
-    --cor1:#454655;
-    --cor2:#a9aabc;
-    --cor3:#d30d45;
-    --cor4:#ff5b75;
+    --cor-az-prn:#1fa8ba;
+    --cor-az-esc:#005c84;
+    --cor-az-clr:#e6f4f1;
+    --cor-vr-esc:#842700;
     --preto: #000000;
     --branco: #FFFFFF;
 }
@@ -15,8 +14,23 @@ body {
     font-family: 'Poppins';
 }
 
+section {
+    padding: 5rem;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--cor-az-esc);
+}
+
+#crustaceos {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    
+}
+
 #contato {
-    background: var(--cor-principal);
+    background: var(--cor-az);
     background-size: cover;
     padding: 4rem 0;
 }
@@ -30,11 +44,11 @@ body {
 }
 
 .formulario button {
-    background-color: var(--cor4);
+    background-color: var(--cor-az-esc);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: var(--cor2);
+    background-color: var(--cor-az-clr);
 }
