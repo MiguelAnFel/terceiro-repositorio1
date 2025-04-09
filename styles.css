@@ -7,19 +7,57 @@
     --cor-vr-esc:#842700;
     --preto: #000000;
     --branco: #FFFFFF;
+
 }
 
 body {
     font-size: 1rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins'; /*o nome da sua fonte*/
 }
 
 section {
-    padding: 5rem;
+    padding-bottom: 5rem;
 }
 
+header {
+    background-color: var(--branco);
+}
+
+.nav-link {
+    color: var(--);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url(img/SeaFloor.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.botao-inicio {
+    background-color: var(--cor-vr-esc);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
+
 .display-4 {
-    text-shadow: -5px 5px var(--cor-az-esc);
+    text-shadow: -5px 5px var(--cor-vr-esc);
 }
 
 #crustaceos {
@@ -27,8 +65,7 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     background: var(--cor-az-clr);
-    background-size: 180px 180px; /* muda dps animal*/
-
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
 #crustaceos .container {
@@ -36,20 +73,30 @@ section {
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 1; /*faz as coisa ficar em cima do background*/
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
 }
 
+
+
+
+
+
+
+
+
+
+
 #contato {
-    background: var(--cor-az-prn);
+    background: var(--branco);
     background-size: cover;
     padding: 4rem 0;
 }
 
 .formulario{
-    background-color: var(--branco);
+    background-color: var(--cor-az-prn);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     font-weight: bold;
 }
 

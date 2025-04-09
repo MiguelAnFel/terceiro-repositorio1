@@ -4,41 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title> Página Principal </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main>
-        <header class="p-5">
-            <h2> Cabeçalho </h2>
+    <header class="p-5" >
+        <h2>Cabeçalho</h2>
 
-            <nav class="container d-flex justify-content-btween align-items-center">
-                <img src="img/Logo.png" alt="Logotipo Crustaçeos wiki" class="nav-img" loading="lazy">
-                <ul>
-                    <li class="nav-item"> <a class="nav-link" href="#inicio"> Inicio </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#galeria"> Galeria </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#contato"> Contato </a> </li>
-                </ul>
-            </nav>
-        </header>
-
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo.png" alt="Logotipo da Tropicália" class="nav-img" loading="lazy" > 
+            <ul class="nav mt-5">
+                <li class="nav-item"> <a class="nav-link" href="#inicio"> Início </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#galeria"> Galeria </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#contato"> Contato </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container my-5">
         <h2>Corpo da página</h2>
         <section id="inicio" class="my-5">
-
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h2>Boas-vindas</h2>
+                    <img src="img/logo-2.png" alt="Logotipo da Tropicália"  class="mb-3" width="563" height="278" loading="lazy" >
+                    <a href="#crustaceos" class="btn btn-primary btn-lg botao-inicio fw-semibold" > Quero conhecer! </a>
+                </div>
+            </div>
         </section>
 
-        <section id="crustaceos" class="my-5 pt-6 secao-crustaceos">
-            <div class="container d-flex align-items-center">
-                <div class="col-5">
-                    <h2>Bem-vindo à Crustáceos Wiki, o reino dos seres de casca dura! De caranguejos astutos a lagostas
-                        imponentes, aqui desvendamos os segredos das criaturas que dominam mares, rios e até a terra
-                        firme.</h2>
-                    <p class="p-2">Se você já se perguntou como um camarão-pistola pode disparar bolhas explosivas ou
-                        por que os caranguejos sempre andam de lado, este é o lugar certo! Explore curiosidades,
-                        anatomia, comportamento e tudo o que há para saber sobre essas criaturas incríveis.
+        <section id="crustaceos" class="my-5 pt-6 secao-crustaceos"> <!-- SEU TEMA do seu Site-->
+            <div class="container d-flex align-items-center" >
+                <div class="col-5" >
+                    <h2>Bem-vindo à Crustáceos Wiki, o reino dos seres de casca dura! De caranguejos astutos a lagostas imponentes, aqui desvendamos os segredos das criaturas que dominam mares, rios e até a terra firme.</h2>
+                    <p class="p-2" > Se você já se perguntou como um camarão-pistola pode disparar bolhas explosivas ou por que os caranguejos sempre andam de lado, este é o lugar certo! Explore curiosidades, anatomia, comportamento e tudo o que há para saber sobre essas criaturas incríveis.
                     </p>
                 </div>
             </div>
@@ -49,56 +50,51 @@
             <h2 class="text-center pt-5"> Galeria </h2>
             <div class="container p-3 mt-3 fundo-galeria">
                 <div class="col-md-4">
-                    <img src="img/Lostab.webp" alt="Uma lagosta" class="img-fluid rounded-5" loading="lazy">
+                    <img src="img/lossy-page1-640px-Jorge_Ben_e_o_Trio_Mocotó_no_Teatro_da_Lagoa,_1971.tif.jpg" alt="Imagem Jorge Ben e o Trio Mocotó" class="img-fluid rounded-5" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/lagos.webp" alt="Uma lagosta, e um peixinho" class="img-fluid rounded-5" loading="lazy">
+                    <img src="img/lossy-page1-640px-Os_Mutantes_2.tif.jpg" alt="Imagem do grupo Os Mutantes" class="img-fluid rounded-5" loading="lazy">
                 </div>
             </div>
 
         </section>
 
         <section id="contato">
-            <div class="container p-5 d-flex justify-content-center">
-                <!-- Caixa do formulario com 60% de largura-->
+            <div class="container p-5 d-flex justify-content-center" >
+                <!-- Caixa do formulário com 60% de largura-->
                 <div class="col-md-8 col-lg-10 rounded-5 formulario">
-                    <h2 class="mb-3">Entre em contato</h2>
+                    <h2 class="mb-3" >Entre em contato</h2>
                     <form>
                         <div class="form-group mb-3">
-                            <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
-                                placeholder="digite seu nome completo">
-
+                            <label  for="nome"> Nome </label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"  placeholder="Digite seu nome completo" >
                         </div>
                         <div class="form-group mb-3">
-                            <label for="email">Email</label>
+                            <label for="email"> Email </label>
                             <input type="email" name="email" id="email" class="form-control rounded-3 mt-1">
-
                         </div>
                         <div class="form-group mb-3">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea name="mensagem" id="mensagem" class="form-control rounded-4 mt-2" rows="4"
-                                placeholder="Escreva sua mensagem"></textarea>
+                            <label for="mensagem"> Mensagem </label>
+                            <textarea name="mensagem" id="mensagem" class="form-control rounded-4 mt-2"  rows="4" placeholder="Escreva sua mensagem"  ></textarea>
                         </div>
                         <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho botao">Enviar
-                                Mensagem</button>
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao"  >Enviar mensagem</button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
 
-        <!--Rodapé-->
-        <footer class="text-center p-3 fst-italic">
-            <h2>Rodapé</h2>
-            <p>Acesse nossas redes</p>
-            <i class="bi bi-whatsapp"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-tiktok"></i>
-            <p>Desenvolvido por Miguel A fel. Projeto ficticios sem fins comerciais</p>
-        </footer>
     </main>
+    <footer class="text-center p-3 fst-italic">
+        <h2>Rodapé</h2>
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Miguel A fel. Projeto ficticios sem fins comerciais
+        </p>
+    </footer>
 </body>
 
 </html>
