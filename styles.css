@@ -47,7 +47,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -64,7 +64,7 @@ header {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
-    background: var(--cor1);
+    background: var(--branco);
     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
@@ -93,7 +93,7 @@ header {
 }
 
 .formulario{
-    background-color: var(--cor1);
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -101,7 +101,7 @@ header {
 }
 
 .formulario button {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     border: none;
     font-weight: bold;
 }
