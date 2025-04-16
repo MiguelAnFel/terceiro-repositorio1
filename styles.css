@@ -87,13 +87,13 @@ header {
 
 
 #contato {
-    background: var(--branco);
+    background: var(--cor-az-prn);
     background-size: cover;
     padding: 4rem 0;
 }
 
 .formulario{
-    background-color: var(--cor-az-prn);
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -101,11 +101,11 @@ header {
 }
 
 .formulario button {
-    background-color: var(--cor-az-esc);
+    background-color: var(--cor-az-prn);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: var(--cor-az-clr);
+    background-color: var(--cor-az-prn);
 }
