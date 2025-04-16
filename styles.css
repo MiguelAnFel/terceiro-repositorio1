@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --cor-az-prn:#1fa8ba;
-    --cor-az-esc:#005c84;
-    --cor-az-clr:#e6f4f1;
-    --cor-vr-esc:#842700;
+    --cor1:#2cb1c4;
+    --cor2:#005365;
+    --cor3:#a14100;
+    --cor4:#ff8e3d;
     --preto: #000000;
     --branco: #FFFFFF;
 
@@ -47,7 +47,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--cor-vr-esc);
+    background-color: var(--cor3);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -57,14 +57,14 @@ header {
 
 
 .display-4 {
-    text-shadow: -5px 5px var(--cor-vr-esc);
+    text-shadow: -5px 5px var(--preto);
 }
 
 #crustaceos {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
-    background: var(--cor-az-clr);
+    background: var(--cor1);
     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
@@ -87,13 +87,13 @@ header {
 
 
 #contato {
-    background: var(--cor-az-prn);
+    background: var(--branco);
     background-size: cover;
     padding: 4rem 0;
 }
 
 .formulario{
-    background-color: var(--branco);
+    background-color: var(--cor1);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -101,11 +101,11 @@ header {
 }
 
 .formulario button {
-    background-color: var(--cor-az-prn);
+    background-color: var(--cor2);
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: var(--cor-az-prn);
+    background-color: var(--branco);
 }
