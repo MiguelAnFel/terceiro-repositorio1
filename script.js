@@ -10,15 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
         botaoDeAcessibilidade.setAttribute('aria-expanded'), !botaoSelecionado
     })
 
-    const aumentaFontBotao = document.getElementById('aumentar-fonte');
+    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
     let tamanhoAtualFonte = 1
-    aumentaFontBotao.addEventListener('click',function(){
+
+    aumentaFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte += 0.1;
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
     })
-    dimin[FontBotao.addEventListener('click',function(){
+    diminuiFonteBotao.addEventListener('click',function(){
         tamanhoAtualFonte -= 0.1;
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
     })
